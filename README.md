@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+___
+title: Chee Wai: Public Projects
+___
 
-You can use the [editor on GitHub](https://github.com/cheelee/cheelee.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to Chee Wai's Home for Public Technical Projects
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Personal Projects
 
-### Markdown
+No functioning projects as of yet. The following is a stub:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Testbed Code](https://cheelee.github.io/testbeds)
 
-```markdown
-Syntax highlighted code block
+:warning: Trying to figure out if there is a way to automatically
+populate a list of my projects by checking that they are Github Pages
+enabled for them. That would be far superior to manually populating them here.
 
-# Header 1
-## Header 2
-### Header 3
+### OpenWorm
 
-- Bulleted
-- List
+Check out my volunteer work with the [OpenWorm](https://github.com/openworm) project:
 
-1. Numbered
-2. List
+- [Worm Movement Database](https://github.com/openworm/movement_cloud) 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cheelee/cheelee.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
