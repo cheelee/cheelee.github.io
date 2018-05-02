@@ -4,7 +4,9 @@
 
 {% for repository in site.github.public_repositories %}
    {% if repository.has_pages %}
-  * [{{ repository.name }}]({{ repository.homepage }})
+      {% if repository.name != "cheelee.github.io" %}
+  * [{{ repository.name }}]({{ repository.homepage }}/{{ repository.name }}) - [Repo]({{ repository.html_url }})
+      {% endif %}
    {% endif %}
 {% endfor %}
 
