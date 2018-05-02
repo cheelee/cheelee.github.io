@@ -1,5 +1,6 @@
 ---
-title: Chee Wai: Public Projects
+title: Chee Wai's Public Projects
+layout: default
 ---
 
 ## Welcome to Chee Wai's Home for Public Technical Projects
