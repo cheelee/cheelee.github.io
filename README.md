@@ -1,18 +1,9 @@
-## Welcome to Chee Wai's Home for Public Technical Projects
+## Chee Wai's Home for Public Technical Projects
 
-### Personal Projects
+This repository serves as the central management site for all my
+public technical projects hosted on Github.
 
-{% for repository in site.github.public_repositories %}
-   {% if repository.has_pages %}
-      {% if repository.name != "cheelee.github.io" %}
-  * [{{ repository.full_name }}]({{ repository.homepage }}/{{ repository.name }}) - ([Repo Link]({{ repository.html_url }}))
-      {% endif %}
-   {% endif %}
-{% endfor %}
-
-### OpenWorm
-
-Check out my volunteer work with the [OpenWorm](https://github.com/openworm) project:
-
-- [Worm Movement Database](https://github.com/openworm/movement_cloud) 
-
+The [content](https://cheelee.github.io) is generated via [Github
+Pages](https://pages.github.com/) using
+[Jekyll](https://jekyllrb.com/) templates to access my repository
+information.
