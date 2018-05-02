@@ -13,7 +13,9 @@ enabled for them. That would be far superior to manually populating them here.
 #### All My Public Repositories
 
 {% for repository in site.github.public_repositories %}
+   {% if repository.has_pages %}
   * [{{ repository.name }}]({{ repository.html_url }})
+   {% endif %}
 {% endfor %}
 
 ### OpenWorm
