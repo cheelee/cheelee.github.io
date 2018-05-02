@@ -2,19 +2,9 @@
 
 ### Personal Projects
 
-No functioning projects as of yet. The following is a stub:
-
-- [Testbed Code](https://cheelee.github.io/testbeds)
-
-:warning: Trying to figure out if there is a way to automatically
-populate a list of my projects by checking that they are Github Pages
-enabled for them. That would be far superior to manually populating them here.
-
-#### All My Public Repositories
-
 {% for repository in site.github.public_repositories %}
    {% if repository.has_pages %}
-  * [{{ repository.name }}]({{ repository.html_url }})
+  * [{{ repository.name }}]({{ repository.homepage }})
    {% endif %}
 {% endfor %}
 
