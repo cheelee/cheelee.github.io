@@ -1,6 +1,11 @@
 ## Welcome to Chee Wai's Home for Public Technical Projects
 
-### Personal Projects
+### My Homepage
+
+[Chee Wai's Home Page](http://cwleehome.blogspot.com/) is where one
+can find more information about myself.
+
+### Personal Github Projects
 
 Apologies for not being able to get this table aligned for now.
 
