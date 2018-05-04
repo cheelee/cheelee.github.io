@@ -3,7 +3,6 @@
 ### Personal Projects
 
 | Project Page  | Description      |  Repo |
-|---------------|:----------------:|------:|
 {% for repository in site.github.public_repositories %}
    {% if repository.has_pages %}
       {% if repository.name != "cheelee.github.io" %}
