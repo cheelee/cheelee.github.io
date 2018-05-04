@@ -2,6 +2,8 @@
 
 ### Personal Projects
 
+Apologies for not being able to get this table aligned for now.
+
 | Project Page  | Description      |  Repo |
 {% for repository in site.github.public_repositories %}
    {% if repository.has_pages %}
