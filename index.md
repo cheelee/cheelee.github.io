@@ -7,7 +7,7 @@
 {% for repository in site.github.public_repositories %}
    {% if repository.has_pages %}
       {% if repository.name != "cheelee.github.io" %}
-| {{ repository.full_name }}]({{ repository.homepage }}/{{ repository.name }}) | {{ repository.description }} | [Link]({{ repository.html_url }}) |
+| [{{ repository.full_name }}]({{ repository.homepage }}/{{ repository.name }}) | {{ repository.description }} | [Link]({{ repository.html_url }}) |
       {% endif %}
    {% endif %}
 {% endfor %}
