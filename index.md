@@ -2,15 +2,12 @@
 
 ### Personal Projects
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Project Page  | Description      |  Repo |
+|---------------|:----------------:|------:|
 {% for repository in site.github.public_repositories %}
    {% if repository.has_pages %}
       {% if repository.name != "cheelee.github.io" %}
-  * [{{ repository.full_name }}]({{ repository.homepage }}/{{ repository.name }}) - ([Repo Link]({{ repository.html_url }}))
+| {{ repository.full_name }}]({{ repository.homepage }}/{{ repository.name }}) | {{ repository.description }} | [Link]({{ repository.html_url }}) |
       {% endif %}
    {% endif %}
 {% endfor %}
